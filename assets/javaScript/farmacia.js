@@ -14,10 +14,7 @@ createApp({
   },
 
   created() {
-    // fetch(`https://mindhub-xj03.onrender.com/api/petshop`)
-    // fetch("../javascript/api.json")
     fetch(`../javascript/api.json`)
-
       .then((respuesta) => respuesta.json())
       .then((info) => {
 // carrito

@@ -14,7 +14,6 @@ createApp({
   },
   created() {
     fetch(`../javascript/api.json`)
-
       .then((respuesta) => respuesta.json())
       .then((info) => {
         this.carrito = JSON.parse(localStorage.getItem("carrito")) || [];
